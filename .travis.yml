@@ -19,7 +19,7 @@ script:
   - cp MAKE_INC/make.linux make.inc
   - mkdir lib
   - make
-  - make testing
+  # - make testing
   
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+# after_success:
+#   - bash <(curl -s https://codecov.io/bash)
