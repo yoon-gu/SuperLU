@@ -31,7 +31,7 @@ SUPERLULIB   	= $(SuperLUroot)/lib/libsuperlu_5.1.a
 #BLASLIB   	= -L/usr/lib/atlas -lblas
 
 ## This BLAS causes single-precision to fail the test in SuperLU
-BLASDEF 	= -DUSE_VENDOR_BLAS
+#BLASDEF 	= -DUSE_VENDOR_BLAS
 BLASLIB 	= -L/usr/lib -lblas
 
 TMGLIB       	= libtmglib.a
