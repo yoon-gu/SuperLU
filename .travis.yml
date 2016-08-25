@@ -1,6 +1,6 @@
 sudo: true
 
-language: c
+language: cpp
 
 compiler:
   - gcc
